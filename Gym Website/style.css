@@ -1,0 +1,121 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #111;
+  color: #fff;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section h2 {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+header nav a {
+  color: #fff;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+#hero {
+  background: url("Wallpaper.jpg") center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+#hero h2 {
+  font-size: 2.5rem;
+}
+
+#hero button {
+  margin-top: 1rem;
+  background: #f04e23;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#hero button:hover {
+  background: #c33d1a;
+}
+
+section {
+  padding: 3rem 1rem;
+}
+
+.facility-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.facility {
+  width: 250px;
+  text-align: center;
+}
+
+.facility img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+#services ul {
+  list-style: disc;
+  margin-left: 2rem;
+}
+
+.plans {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.plan {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 250px;
+  background: #f9f9f9e6;
+}
+
+.plan .discount {
+  color: #f04e23;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background: #111;
+  color: #fff;
+  padding: 1rem;
+}
